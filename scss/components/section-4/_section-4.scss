@@ -1,0 +1,158 @@
+@media (min-width: 0px){
+    .section-4{
+        margin-top: 230px;
+        .section-4__text-1{
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            color: #fff;
+            .br-3-768{
+                display: none;
+            }
+        }
+        .section-4__div{
+            margin-top: 17px;
+            display: flex;
+            justify-content: center;
+            .section-4__cari-1{
+                width: 289px;
+                height: 109px;
+                border-radius: 16px;
+                background: linear-gradient(to right, #E8C25F, #F2E191, #D3A647);
+                padding: 16px 54px;
+                box-shadow: rgba(0, 0, 0, 0.719) 0px 25px 20px -20px;
+                .cart-1__text-1{
+                    margin-left: 67px;
+                    font-size: 10px;
+                    font-weight: 400;
+                    color: #00000094;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px; 
+                }
+                .cart-1__text-2{
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #000000;
+                    text-align: center;
+                    margin-top: 4px;
+                }
+                .cart-1__text-3{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #000000;
+                    text-align: center;
+                }
+            }
+            .section-4__div-2{
+                display: flex;
+                margin-top: 15px;
+                gap: 9px;
+                .section-4__cart-2{
+                    width: 88px;
+                    height: 85px;
+                    border-radius: 16px;
+                    background-color: #212121;
+                    box-shadow: rgba(0, 0, 0, 0.705) 0px 25px 20px -20px;
+                    padding: 12px 14px;
+                    .cart-2__text-1{
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        color: #96C355;
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                    .cart-2__text-2{
+                        margin-top: 4px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                    .cart-2__text-3{
+                        font-size: 10px;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .section-4{
+        margin-top: 450px;
+        .section-4__text-1{
+            .br-3-0{
+                display: none;
+            }
+             .br-3-768{
+                display: block;
+            }
+        }
+        .section-4__div {
+            .didid{
+                display: flex;
+            .section-4__cari-1{
+                width: 229px;
+                height: 85px;
+                padding: 4px 24px;
+                margin-right: 9px;
+            }
+            .section-4__div-2{
+                margin-top: 0px;
+            }
+            }
+        }
+    }
+}
+
+@media (min-width: 1100px){
+    .section-4{
+        margin-top: 600px;
+        .section-4__text-1{
+        font-size: 24px;
+        }
+        .section-4__div {
+            .didid{
+                margin-top: 32px;
+            .section-4__cari-1{
+                width: 336px;
+                height: 155px;
+                padding: 24px 32px;
+                margin-right: 37px;
+                .cart-1__text-1{
+                    margin-left: 0px;
+                    font-size: 14px;
+                }
+                .cart-1__text-2{
+                    font-size: 36px;
+                    text-align: left;
+                }
+                .cart-1__text-3{
+                    font-size: 16px;
+                    text-align: left;
+                }
+            }
+            .section-4__div-2{
+                gap: 37px;
+                .section-4__cart-2{
+                    width: auto;
+                    height: auto;
+                    padding: 24px 32px;
+                    .cart-2__text-1{
+                        font-size: 14px;
+                    }
+                    .cart-2__text-2{
+                        font-size: 36px;
+                    }
+                    .cart-2__text-3{
+                        font-size: 16px;
+                    }
+                }
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@media (min-width: 0px){
+    .section-3{
+        margin-top: -120px;
+        display: flex;
+        justify-content: center;
+        .divv{
+            .section-3__text-1{
+                font-size: 16px;
+                font-weight: 700;
+                color: #FFFFFFD9;
+                text-align: center;
+            }
+            .section-3__div{
+                position: relative;
+                width: 307px;
+                margin-top: 17px;
+                .section-3__img-1{
+                    position: absolute;
+                    width: 306px;
+                    height: 172px;
+                    margin-top: 14px;
+                    z-index: -10;
+                }
+                .section-3__img-2{
+                    position: absolute;
+                    z-index: -9;
+                }
+                .section-3__img-3{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .section-3{
+        margin-top: -480px;
+        .divv{
+            .section-3__text-1{
+                font-size: 20px;
+                font-weight: 700;
+                color: #FFFFFFD9;
+                text-align: center;
+            }
+            .section-3__div{
+                position: relative;
+                width: 507px;
+                margin-top: 17px;
+                .section-3__img-1{
+                    position: absolute;
+                    width: 506px;
+                    height: 372px;
+                    margin-top: 14px;
+                }
+                .section-3__img-2{
+                    position: absolute;
+                    width: 494px;
+                    height: 400px;
+                    margin-left: 5px;
+                }
+                .section-3__img-3{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1100px){
+    .section-3{
+        margin-top: -1180px;
+        .divv{
+            .section-3__text-1{
+                font-size: 36px;
+            }
+            .section-3__div{
+                width: 998px;
+                margin-top: 17px;
+                .section-3__img-1{
+                    width: 964px;
+                    height: 543px;
+                    margin-top: 0px;
+                }
+                .section-3__img-2{
+                    display: none;
+                }
+                .section-3__img-3{
+                    position: absolute;
+                    display: block;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1500px){
+    .section-3{
+        margin-top: -2180px;
+    }
+}
