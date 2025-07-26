@@ -11,3 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
         menuUl.classList.remove('active');
     });
 });
+
+let mask = document.querySelector('.loader');
+
+window.addEventListener('load', () => {
+    mask.classList.add('kil');
+    setTimeout(() => {
+        mask.remave();
+    }, 600)
+})
