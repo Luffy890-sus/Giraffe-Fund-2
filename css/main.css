@@ -467,6 +467,7 @@ body {
 }
 .kil {
   opacity: 0;
+  z-index: -99999;
 }
 
 @media (min-width: 0px) {

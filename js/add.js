@@ -12,11 +12,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-let mask = document.querySelector('.loader');
+const mask = document.querySelector('.loader');
 
 window.addEventListener('load', () => {
-    mask.classList.add('kil');
-    setTimeout(() => {
-        mask.remave();
-    }, 600)
-})
+    if (mask) {
+        mask.classList.add('kil');
+        setTimeout(() => {
+            mask.remove(); // исправлено с remave() на remove()
+        }, 600); // совпадает с transition
+    }
+});
